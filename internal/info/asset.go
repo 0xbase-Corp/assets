@@ -47,13 +47,3 @@ func ValidateAsset(a AssetModel, chain coin.Coin, addr string) error {
 
 	return nil
 }
-
-// GenerateLogoURL dynamically constructs the URL based on the blockchain name
-func GenerateLogoURL(blockchain string) string {
-	base := "https://raw.githubusercontent.com/0xbase-Corp/assets/master/blockchains/"
-	path := "/info/logo.png"
-
-	// Construct the full URL
-	url := base + blockchain + path
-	return url
-}
