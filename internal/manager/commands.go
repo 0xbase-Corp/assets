@@ -13,7 +13,7 @@ import (
 	"github.com/trustwallet/go-primitives/coin"
 	"github.com/trustwallet/go-primitives/types"
 
-	"github.com/trustwallet/assets/internal/config"
+	"github.com/0xbase-Corp/assets/internal/config"
 )
 
 func CreateAssetInfoJSONTemplate(token string) error {

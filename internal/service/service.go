@@ -1,10 +1,10 @@
 package service
 
 import (
+	"github.com/0xbase-Corp/assets/internal/processor"
+	"github.com/0xbase-Corp/assets/internal/report"
 	"github.com/trustwallet/assets-go-libs/file"
 	"github.com/trustwallet/assets-go-libs/validation"
-	"github.com/trustwallet/assets/internal/processor"
-	"github.com/trustwallet/assets/internal/report"
 
 	log "github.com/sirupsen/logrus"
 )

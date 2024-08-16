@@ -1,4 +1,4 @@
-module github.com/trustwallet/assets
+module github.com/0xbase-Corp/assets
 
 go 1.19
 
